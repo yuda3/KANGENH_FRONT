@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--<img src="images/400x250.png" alt="#">-->
+<div class="bg-img"></div>
+<picture>
+    <source media="(min-width:960px)" srcset="images/1100x550.png">
+    <source media="(min-width:480px)" srcset="images/800x250.png">
+    <img src="images/400x250.png" alt="test">
+</picture>
+<style>
+    .bg-img{
+        background-color: black;
+        height: 250px;
+        background-image: url(images/400x250.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+</style>
+</body>
+</html>
